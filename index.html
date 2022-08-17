@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bogl</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="lights-layer"></div>
+    <!-- HAMBURGER -->
+    <div id="menu">
+        <svg width="28" height="23">
+            <line id="l_0" x1="3" y1="3" x2="28" y2="3" style="transform:rotate(43deg)"></line>
+            <line id="l_1" x1="3" y1="11" x2="28" y2="11" style="opacity:0"></line>
+            <line id="l_2" x1="3" y1="19" x2="28" y2="19" style="transform:rotate(-43deg)"></line>
+        </svg>
+    </div>
+    <!-- HOMESCREEN -->
+    <div id="homescreen" class="open">
+        <ul id="mainMenu">
+            <li class="opt" id="newGame">NEW GAME</li>
+            <li class="opt"><input type="radio" name="wordsGroup" id="hideWords" checked>
+                <label>HIDE WORDS</label>
+            </li>
+            <li class="opt"><input type="radio" name="wordsGroup">
+                <label>SHOW WORDS</label>
+            </li>
+            <li class="opt"><input type="radio" name="timeGroup" value="180" checked>
+                <label>TIME: 3 min</label>
+            </li>
+            <li class="opt"><input type="radio" name="timeGroup" value="300">
+                <label>TIME: 5 min</label>
+            </li>
+            <li class="opt"><input type="radio" name="timeGroup" value="600">
+                <label>TIME: 10 min</label>
+            </li>
+        </ul>
+    </div>
+    <div id="score">0</div>
+    <div id="tempWord"></div>
+    <div id="left">
+        <div id="timer"></div>
+        <div id="wrapper"></div>
+        <div id="wordsMade"><span id="numWordsMade">0</span> / <span id="possibleWords">0</span></div>
+    </div>
+    <div id="right">
+        <div id="words"></div>
+    </div>
+
+    <script src="./wordlist.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
