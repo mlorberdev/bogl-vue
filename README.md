@@ -31,7 +31,7 @@ The project combines a responsive user interface with efficient word validation 
 
 Players search the board for connected letter paths and submit valid words before time expires.
 
-![Gameplay Board](screenshots/gameplay-board.png)
+![Gameplay Board](Game%201.png)
 
 ---
 
@@ -39,7 +39,7 @@ Players search the board for connected letter paths and submit valid words befor
 
 Selected letters are highlighted as players trace a word across adjacent tiles.
 
-![Word Selection](screenshots/word-selection.png)
+![Word Selection](Game%202.png)
 
 ---
 
@@ -47,7 +47,7 @@ Selected letters are highlighted as players trace a word across adjacent tiles.
 
 At the end of a round, players can review discovered words, remaining valid words, and final scores.
 
-![Results Screen](screenshots/results-screen.png)
+![Results Screen](Game%203.png)
 
 ---
 
